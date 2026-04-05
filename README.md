@@ -1,36 +1,130 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 SRM Insider – Golden Task Submission
 
-## Getting Started
+A modern, fully responsive content platform built as part of the **SRM Insider Club Recruitment Golden Task**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+SRM Insider is a student-focused platform designed to provide curated content related to:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 📊 Placements  
+- 💼 Internships  
+- 🎓 Campus Life  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The goal of this project is to demonstrate strong **UI/UX design**, **frontend development skills**, and **clean architecture** using modern web technologies.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- ⚛️ Next.js (App Router)
+- 🟦 TypeScript
+- 🎨 Tailwind CSS
+- 🧩 Component-based architecture
+- 🎞️ Framer Motion (animations)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## ✨ Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🏠 Landing Page
+- Clean and modern hero section
+- Category highlights (Placements, Internships, Campus Life)
+- Featured posts section
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 🔐 Authentication UI (Frontend Only)
+- Login page
+- Signup page
+- Basic form validation
+
+### 📊 Dashboard
+- Dynamic post listing
+- Category-based filtering
+- Real-time search functionality
+
+### 📄 Post Detail Page
+- Dynamic routing using Next.js
+- Individual article view
+
+### ⭐ Bookmark Feature
+- Save/unsave posts
+- Persistent state using localStorage
+
+### 🌙 Dark Mode
+- Fully functional theme toggle
+- Smooth transitions
+
+### 📱 Fully Responsive
+- Optimized for mobile, tablet, and desktop
+
+---
+
+## 🎨 UI/UX Highlights
+
+- Minimal and premium design system
+- Consistent spacing and typography
+- Smooth animations and transitions
+- Interactive hover effects
+- Focused on usability and clarity
+
+---
+
+## 📁 Project Structure
+srm-insider/
+│
+├── app/
+│ ├── login/
+│ ├── signup/
+│ ├── dashboard/
+│ ├── post/
+│ │ └── [id]/
+│ ├── layout.tsx
+│ └── page.tsx
+│
+├── components/
+│ ├── shared/
+│ └── cards/
+│
+├── data/
+│ └── mockData.ts
+│
+├── hooks/
+├── lib/
+├── styles/
+│
+├── public/
+├── package.json
+└── README.md
+
+---
+
+## 🚀 Live Demo
+
+🔗 [Add your Vercel link here]
+
+---
+
+## 💡 Key Learnings
+
+- Understanding of Next.js App Router architecture
+- Managing client vs server components
+- Building reusable UI components
+- Implementing responsive layouts
+- Handling state and localStorage
+- Creating smooth user interactions
+
+---
+
+## 🎯 Conclusion
+
+This project reflects my ability to build a **scalable, responsive, and user-friendly web application** with clean code and modern design principles.
+
+---
+
+## 👤 Author
+
+**Amritansu Singh**  
+SRM Institute of Science and Technology
+
+---
