@@ -101,7 +101,7 @@ srm-insider/
 
 ## 🚀 Live Demo
 
-🔗 [Add your Vercel link here]
+🔗 (https://smr-insider-demo-website.vercel.app/)
 
 ---
 
@@ -125,6 +125,5 @@ This project reflects my ability to build a **scalable, responsive, and user-fri
 ## 👤 Author
 
 **Amritansu Singh**  
-SRM Institute of Science and Technology
 
 ---

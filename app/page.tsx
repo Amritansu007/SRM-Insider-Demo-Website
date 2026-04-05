@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { CategoryCard } from "@/components/cards/CategoryCard";
 import { PostCard } from "@/components/cards/PostCard";
 import { posts } from "@/data/mockData";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -42,10 +43,11 @@ export default function Home() {
           transition={{ delay: 0.4, duration: 0.6 }}
           className="relative z-10 mt-8"
         >
-          <button className="bg-[#C9A227] hover:bg-[#b8961f] text-white px-8 py-3 rounded-xl text-lg transition 
-shadow-[0_10px_30px_rgba(201,162,39,0.3)] hover:scale-105">
-            Explore Now
-          </button>
+          <Link href="/dashboard">
+            <button className="bg-[#C9A227] hover:bg-[#b8961f] text-white px-8 py-3 rounded-xl text-lg transition shadow-lg hover:scale-105">
+              Explore Now
+            </button>
+          </Link>
         </motion.div>
 
       </div>

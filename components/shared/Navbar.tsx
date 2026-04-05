@@ -9,7 +9,7 @@ export function Navbar() {
 backdrop-blur-md bg-white/70 dark:bg-zinc-900/70 
 border-b border-white/20 dark:border-zinc-800 
 sticky top-0 z-50">
-      
+
       {/* Logo */}
       <Link href="/" className="text-xl font-bold tracking-wide">
         SRM Insider
@@ -30,6 +30,12 @@ sticky top-0 z-50">
 
       {/* Right Side */}
       <div className="flex items-center gap-4">
+
+        {/* Mobile Menu Button */}
+        <button className="md:hidden text-xl">
+          ☰
+        </button>
+
         <ThemeToggle />
       </div>
     </nav>
